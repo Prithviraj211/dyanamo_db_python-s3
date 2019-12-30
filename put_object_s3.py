@@ -2,10 +2,9 @@ import boto3
 
 from botocore.client import Config
 
-ACCESS_KEY_ID = 'AKIAIQA4B53G7MWAXULA'
-ACCESS_SECRET_KEY = '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'
-BUCKET_NAME = 's3-program-py'
-
+ACCESS_KEY_ID = ''
+ACCESS_SECRET_KEY = ''
+BUCKET_NAME = ''
 data = open('test.png', 'rb')
 
 s3 = boto3.resource(
